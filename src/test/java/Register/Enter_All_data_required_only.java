@@ -26,6 +26,9 @@ public class Enter_All_data_required_only {
         driver.get("https://demo.nopcommerce.com/register?returnUrl=%2F");
 
 
+        // ----- Start Test case ----- //
+
+        // Enter all data required to Register
         driver.findElement(By.id("FirstName")).sendKeys(first_name);
         driver.findElement(By.id("LastName")).sendKeys(last_name);
         driver.findElement(By.id("Email")).sendKeys(email);

@@ -30,6 +30,9 @@ public class Enter_All_data_correct {
         WebDriver driver = new ChromeDriver();
         driver.get("https://demo.nopcommerce.com/register?returnUrl=%2F");
 
+
+        // ----- Start Test case ----- //
+
         // Enter all data to Register
         if(gender == 0)
         {
